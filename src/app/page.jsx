@@ -12,16 +12,17 @@ export default function SocialMediaPage() {
     },
     {
       name: "Instagram",
-      url: "https://instagram.com/yourusername",
+      url: "https://www.instagram.com/farm_ferry_2025?igsh=ODNwYW5jdXU1NG53",
       icon: Instagram,
       description: "See my photos",
     },
     {
-      name: "Email",
-      url: "mailto:your.email@example.com",
-      icon: Mail,
-      description: "Send me an email",
-    },
+  name: "Email",
+  url: "mailto:info@farmferry.in",
+  icon: Mail,
+  description: "Send me an email",
+},
+
     {
       name: "Website",
       url: "https://yourwebsite.com",
@@ -86,9 +87,25 @@ export default function SocialMediaPage() {
           </div>
 
           {/* Footer */}
-          <div className="mt-16 text-center">
-            
-          </div>
+<div className="mt-16 text-center">
+  <div className="mb-4">
+    <div className="w-full border-t border-gray-300 my-4 opacity-50"></div>
+    <p className="text-gray-700 mb-2">
+      We also have a mobile app! 
+      <span className="mx-2">👉</span>
+      <a 
+        href="https://your-app-link.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-green-600 hover:text-green-800 font-medium underline underline-offset-4 decoration-2 decoration-green-400 hover:decoration-green-600 transition-colors duration-300"
+      >
+        Download Now
+      </a>
+      <span className="mx-2">👈</span>
+    </p>
+    <p className="text-sm text-gray-500 mt-1">Available on iOS and Android</p>
+  </div>
+</div>
         </div>
       </div>
     </div>
